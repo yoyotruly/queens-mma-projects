@@ -1,10 +1,15 @@
+# This is assignment 1 of the Predictive Modelling class and my first attempt to participate in
+# a Kaggle competition. I chose the house price dataset to practice different regression techniques
+# and stacking ensembling.
+
+
 library(tidyverse)
 library(caret)
 library(glmnet)
 library(Metrics)
 
 ### Import Dataset ---------------------------------------------------------------------------------
-setwd("/Users/yangyoyo/Desktop/MMA/M2 - Predictive Modelling/Individual Ass")
+setwd("/Users/yangyoyo/Desktop/MMA/M2 - Predictive Modelling/Data")
 train_raw <- read.csv("train.csv")
 test_raw <- read.csv("test.csv")
 

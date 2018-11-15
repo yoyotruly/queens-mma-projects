@@ -1,3 +1,8 @@
+# This is the code for assignment 3 of the Predictive Modelling class. The objective of this
+# assignment is to build classification models to predict the likelihood of credit default,
+# explore the role of gender in credit provision, and understand potential bias & discrimination
+# in machine learning
+
 pacman::p_load("tidyverse", "readxl", "caret", "MASS", "ROCR", "glmnet", "doParallel", "gridExtra")
 
 setwd("/Users/yangyoyo/Desktop/MMA/M2 - Predictive Modelling/Data")

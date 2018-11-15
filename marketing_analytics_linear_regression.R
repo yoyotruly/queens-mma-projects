@@ -1,3 +1,8 @@
+# This is assignment 1 of the Marketing Analytics class. The goal is to practice linear regression.
+# The assignment itself is really easy, so I took the opportunity to practice writing tidy code,
+# plotting with ggplot2 and some dyplyr.
+
+
 pacman::p_load("tidyverse", "GGally", "gridExtra", "caret", "MASS", "coefplot")
 
 setwd("desktop/MMA/M3 - Marketing Analytics/Data")
